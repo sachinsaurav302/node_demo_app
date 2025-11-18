@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # 1) GitHub Actions update (workflows me use hone wale actions)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "YOUR_USERNAME"
+
+  # 2) NPM dependencies (package.json)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "YOUR_USERNAME"
