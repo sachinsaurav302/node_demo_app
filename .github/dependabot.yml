@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "YOUR_USERNAME"
+      - "sachinsaurav302"
 
   # 2) NPM dependencies (package.json)
   - package-ecosystem: "npm"
@@ -14,4 +14,4 @@ updates:
     schedule:
       interval: "daily"
     reviewers:
-      - "YOUR_USERNAME"
+      - "sachinsaurav302"
